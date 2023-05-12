@@ -47,7 +47,7 @@ def check_dicts(dict1: dict, dict2: dict) -> None:
 
 print("\nCreating variables - Working with Integers")
 # we are creating the number 11 in memory, and we point num1 to it.
-num1 = 11
+num1 = 1
 
 # Question 1?  is num2 pointing to same memory location as num1 ?
 num2 = num1
@@ -55,12 +55,12 @@ num2 = num1
 check_nums(num1, num2)
 
 # Question 2? what happens if we update num2?
-num2 = 22
+num2 = 2
 
 check_nums(num1, num2)
 
 # Question 3? what happens if we update num1?
-num1 = 33
+num1 = 3
 
 check_nums(num1, num2)
 
@@ -72,7 +72,7 @@ print("------------------------ New Exercise ----------------------------\n")
 print("\nCreating variables - Working with dictionaries")
 
 # dict1 will point to a directional in memory
-dict1 = {"value": 11}
+dict1 = {"value": 1}
 dict2 = dict1
 
 # Question 1? is  dict2 pointing to same memory location as dict1 ?
@@ -80,7 +80,7 @@ dict2 = dict1
 check_dicts(dict1, dict2)
 
 # Question 2? what happens if we update de value of dict2?
-dict2["value"] = 22
+dict2["value"] = 2
 
 check_dicts(dict1, dict2)
 
