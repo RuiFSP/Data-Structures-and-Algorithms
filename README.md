@@ -1,6 +1,12 @@
-# Python algorithms and Data Structures
+# Python - Algorithms and Data Structures
 
 This is part of my studies to be a better developer.
+
+
+## Table of Contents
+
+- [BigO](BigO)
+
 
 ## Useful Links:
  
@@ -8,8 +14,3 @@ This is part of my studies to be a better developer.
   - Big-O Complexity Chart
   - Common Data structures Operations
   - Array Sorting Algorithms
-
-
-## Table of Contents
-
-- [BigO](BigO)
