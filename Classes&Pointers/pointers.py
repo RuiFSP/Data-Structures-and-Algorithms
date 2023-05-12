@@ -45,7 +45,7 @@ def check_dicts(dict1: dict, dict2: dict) -> None:
         print("dict1 and dict2 are not pointing to the same memory location")
 
 
-print("\nCreating variables - Working with Integers")
+print("\nCreating variables - Working with Integers\n")
 # we are creating the number 11 in memory, and we point num1 to it.
 num1 = 1
 
@@ -68,8 +68,8 @@ check_nums(num1, num2)
 # This happens because Integers are immutable, they cannot be changed once created.
 # To change the value of an integer, you need to create a new integer, therefor a  new memory location.
 # ------------------------------------------------------------------------------------------------
-print("------------------------ New Exercise ----------------------------\n")
-print("\nCreating variables - Working with dictionaries")
+print("\n------------------------ New Exercise ----------------------------\n")
+print("\nCreating variables - Working with dictionaries\n")
 
 # dict1 will point to a directional in memory
 dict1 = {"value": 1}
