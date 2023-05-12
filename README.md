@@ -6,6 +6,7 @@ This is part of my studies to be a better developer.
 ## Table of Contents
 
 - [BigO](BigO)
+- [Classes&Pointers](Classes&Pointers)
 
 
 ## Useful Links:
