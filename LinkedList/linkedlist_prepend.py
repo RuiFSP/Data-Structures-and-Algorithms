@@ -22,11 +22,12 @@ class LinkedList:
             self.tail = new_node
 
         self.length += 1
+        return  # some future method will require a boolean to be returned
 
     def print_list(self):
         temp = self.head
         while temp is not None:
-            print(temp.value)
+            print(temp.value, end=' ')
             temp = temp.next
 
     def pop(self):
@@ -51,17 +52,29 @@ class LinkedList:
             self.head = None
             self.tail = None
 
-        return temp  # return the removed node
+        return temp.value  # return the removed node, for testing will return the value
+
+    def prepend(self, value):
+        new_node = Node(value)
+
+        if self.length == 0:
+            self.head = new_node
+            self.tail = new_node
+        else:
+            new_node.next = self.head
+            self.head = new_node
+
+        self.length += 1
+        return True  # some future method will require a boolean to be returned
 
 
 if __name__ == "__main__":
-    # example
-    my_ll = LinkedList(1)
-    my_ll.append(2)
+    my_ll = LinkedList(2)
     my_ll.append(3)
+    my_ll.append(4)
     my_ll.print_list()
 
-    # popping last element
-    print("---popping element---")
-    my_ll.pop()
+    print(f"\n--> appending a new node to start")
+    my_ll.prepend(1)
+
     my_ll.print_list()
