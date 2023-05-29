@@ -7,6 +7,7 @@ This is part of my studies to be a better developer.
 
 - [BigO](BigO)
 - [Classes&Pointers](Classes&Pointers)
+- [LinkedLists](LinkedList)
 
 
 ## Useful Links:
