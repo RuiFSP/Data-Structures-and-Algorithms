@@ -46,7 +46,7 @@ class LinkedList:
         less = less_head
         greater = greater_head
 
-        # Traverse the original linked list:
+        # Traverse the original linked list: (x = 5)
         # If the current node's value is less than x, append it to the less list by updating the next reference
         # of the less pointer and moving the less pointer to the newly appended node.
         # Otherwise, append it to the greater list using the same process
