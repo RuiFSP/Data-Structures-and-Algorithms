@@ -40,7 +40,6 @@ class LinkedList:
             # if current node's value is already in the set, remove duplicate
             if current.value in unique_set:
                 previous.next = current.next
-                # decrement list length by 1
                 self.length -= 1
             # Else, add the current node's value to the set and update previous
             else:
