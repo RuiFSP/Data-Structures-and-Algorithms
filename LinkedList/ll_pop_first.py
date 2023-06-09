@@ -83,7 +83,7 @@ class LinkedList:
         if self.length == 0:
             self.tail = None
 
-        return temp.value # for testing purpose
+        return temp # for testing purpose
 
 
 if __name__ == "__main__":
@@ -98,6 +98,6 @@ if __name__ == "__main__":
     my_ll.print_list()
 
     print(f"\n--> popping node at start")
-    print(my_ll.pop_first()) # what element was removed
+    print(my_ll.pop_first().value) # what element was removed
 
     my_ll.print_list()

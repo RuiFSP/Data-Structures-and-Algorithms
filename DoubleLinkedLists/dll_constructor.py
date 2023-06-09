@@ -19,5 +19,6 @@ class DoubleLinkedList:
             temp = temp.next
 
 
-my_doubly_linked_list = DoubleLinkedList(1)
-my_doubly_linked_list.print_list()
+if __name__ == "__main__":
+    my_dll = DoubleLinkedList(1)
+    my_dll.print_list()
